@@ -46,9 +46,9 @@ Note:
 <!---  Add bullets using https://fontawesome.com/cheatsheet certificate
 -->
 <ul style="list-style-type:none">
- <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define the porting task list for porting existing<br>&nbsp;&nbsp&nbsp;&nbsp platforms in EDK II in order to boot to the UEFI Shell</span> </li>
- <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the EDK II infrastructure, porting libraries,<br>&nbsp;&nbsp&nbsp;&nbsp library classes, PCDs, and directory structures</span></li>
- <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Determine the necessary porting for each phase<br> &nbsp;&nbsp&nbsp;&nbspof a new EDK II platform Project</span> </li>
+ <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define the porting task list for porting existing<br>&nbsp;&nbsp;&nbsp;&nbsp; platforms in EDK II in order to boot to the UEFI Shell</span> </li>
+ <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the EDK II infrastructure, porting libraries,<br>&nbsp;&nbsp;&nbsp;&nbsp; library classes, PCDs, and directory structures</span></li>
+ <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Determine the necessary porting for each phase<br> &nbsp;&nbsp&nbsp;&nbsp;of a new EDK II platform Project</span> </li>
 </ul>
 
 ---?image=assets/images/binary-strings-black2.jpg
@@ -377,13 +377,12 @@ Note:
 
 ---?image=/assets/images/slides/Slide27_1.JPG
 @title[Porting Approach]
-<p align="center"><span style="font-size:01.1em" ><font color="black"<b>Approach – Porting EDK II</b></font></span></p>
-<br>
+### <p align="center"><font color="black"<b>Approach – Porting EDK II</b></font></p>
 <br>
 @ul[no-bullet]
-- <p align="right"><span style="font-size:01.1em" ><span style="background-color: #fdb819">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Search Work Space&nbsp;</b>&nbsp;&nbsp;</span></span></p><br><br>
+- <p align="right"><span style="font-size:01.1em" ><span style="background-color: #fdb819">&nbsp;&nbsp;&nbsp; <b>Search Work Space&nbsp;</b>&nbsp;&nbsp;</span></span></p><br><br><br>
 - <p align="left"><span style="font-size:01.1em" ><span style="background-color: #92d050">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Find Similar EDK II Projects</b>&nbsp;&nbsp;&nbsp;</span></span></p>
-- <p align="center"><span style="font-size:01.1em" ><span style="background-color: #7030a0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Boot to UEFI Shell&nbsp;</b>;&nbsp;&nbsp;</span></span></p>
+- <p align="center"><span style="font-size:01.1em" ><span style="background-color: #7030a0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Boot to UEFI Shell&nbsp;</b>&nbsp;&nbsp;</span></span></p>
 @ulend
 
 
@@ -1273,9 +1272,9 @@ Note:
 <div class="right">
 <br>
 @ul[no-bullet]
--  <font color="#FFFF00">&nbsp;&nbsp;<b>Creates HOBs </b></font> <br>
--  <font color="white">&nbsp;&nbsp;<b>Locates DXE main </b></font>  <BR>
--  <font color="#ffc000">&nbsp;&nbsp;<b>Switch Stacks</b></font>  <br>
+-  <font color="#FFFF00">&nbsp;&nbsp;<b>Creates HOBs </b></font> <br><br>
+-  <font color="white">&nbsp;&nbsp;<b>Locates DXE main </b></font>  <BR><br>
+-  <font color="#ffc000">&nbsp;&nbsp;<b>Switch Stacks</b></font>  <br><br>
 -  <font color="cyan">&nbsp;&nbsp;<b>&rarr;&nbsp;DxeMain() </b></font> 
 @ulend
 </div>			
@@ -1645,9 +1644,9 @@ Note:
 <br>
 <br>
 <ul style="list-style-type:none">
-  <li><span style="font-size:0.9em" ><font color="white">Detect console devices (input and output) </font> </span></li>
-  <li><span style="font-size:0.9em" ><font color="cyan">Check enumeration of all devices’ preset </font> </span></li>
-  <li><span style="font-size:0.9em" ><font color="white">Detect boot policy</font> </span></li>
+  <li><span style="font-size:0.9em" ><font color="white">Detect console devices (input and output) </font> </span></li><br>
+  <li><span style="font-size:0.9em" ><font color="cyan">Check enumeration of all devices’ preset </font> </span></li><br>
+  <li><span style="font-size:0.9em" ><font color="white">Detect boot policy</font> </span></li><br>
   <li><span style="font-size:0.9em" ><font color="cyan">Ensure BIOS “front page” is loaded </font> </span></li>
 
   </ul>
@@ -1744,6 +1743,8 @@ Note:
 <br> 
 <br> 
 <br> 
+<br> 
+<br> 
 <span style="font-size:0.5em" >Check the <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications">EDK II Specifications</a> </span>
 
 Note:
@@ -1759,6 +1760,8 @@ Note:
 ---?image=/assets/images/slides/Slide139.JPG
 @title[Update the New Project DEC File]
 <p align="right"><span class="gold" >Update the New Project DEC File</span></p>
+<br> 
+<br> 
 <br> 
 <br> 
 <br> 
@@ -1788,6 +1791,8 @@ Note:
 ---?image=/assets/images/slides/Slide141.JPG
 @title[Update the New Project DSC File]
 <p align="right"><span class="gold" >Update the New Project DSC File</span></p>
+<br> 
+<br> 
 <br> 
 <br> 
 <br> 
@@ -1852,8 +1857,8 @@ Note:
 @title[FDF File Example]
 <p align="right"><span class="gold" >FDF File Example</span></p>
 
-<pre>
-```
+
+```C
 [Fv.Root]
 FvAlignment = 64
 ERASE_POLARITY = 1
@@ -1894,14 +1899,6 @@ INF $(SAMPLE)/Universal/Network/ Mtftp4Dxe/Mtftp4Dxe.inf
 INF $(SAMPLE)/Universal/Network/ SnpNt32Dxe/SnpNt32Dxe.inf 
 
 ```
-</pre>
-
-Note:
-
--   The INF statements point to EDK component and EDK II module INF files, which will be placed into this FV image.
--  Parsing tools will scan the INF file to determine the type of component or module.
--   The component or module type is used to reference the standard rules
--  defined elsewhere in the FDF file.
 
 
 ---?image=/assets/images/slides/Slide148.JPG
