@@ -378,10 +378,10 @@ Note:
 ---?image=/assets/images/slides/Slide27_1.JPG
 @title[Porting Approach]
 ### <p align="center"><font color="black"<b>Approach – Porting EDK II</b></font></p>
-
+<br>
 @ul[no-bullet]
 - <span style="font-size:01.1em" >1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #fdb819"><b>Search Work Space&nbsp;</b></span></span></p><br><br><br><br><br>
-- <span style="font-size:01.1em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #92d050">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Find Similar EDK II Projects</b>&nbsp;&nbsp;&nbsp;</span></span><br><br>
+- <span style="font-size:01.1em" >&nbsp;<span style="background-color: #92d050">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Find Similar EDK II Projects</b>&nbsp;&nbsp;&nbsp;</span></span><br><br><br>
 - <span style="font-size:01.1em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #7030a0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Boot to UEFI Shell&nbsp;</b>&nbsp;&nbsp;</span></span>
 @ulend
 
