@@ -46,9 +46,9 @@ Note:
 <!---  Add bullets using https://fontawesome.com/cheatsheet certificate
 -->
 <ul style="list-style-type:none">
- <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define the porting task list for porting existing<br>&nbsp;&nbsp;&nbsp;&nbsp; platforms in EDK II in order to boot to the UEFI Shell</span> </li>
- <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the EDK II infrastructure, porting libraries,<br>&nbsp;&nbsp;&nbsp;&nbsp; library classes, PCDs, and directory structures</span></li>
- <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Determine the necessary porting for each phase<br> &nbsp;&nbsp&nbsp;&nbsp;of a new EDK II platform Project</span> </li>
+ <li>@fa[certificate gp-bullet-green]<span style="font-size:0.9em">&nbsp;&nbsp;Define the porting task list for porting existing<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; platforms in EDK II in order to boot to the UEFI Shell</span> </li>
+ <li>@fa[certificate gp-bullet-cyan]<span style="font-size:0.9em">&nbsp;&nbsp;Explain the EDK II infrastructure, porting libraries,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; library classes, PCDs, and directory structures</span></li>
+ <li>@fa[certificate gp-bullet-yellow]<span style="font-size:0.9em">&nbsp;&nbsp;Determine the necessary porting for each phase<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of a new EDK II platform Project</span> </li>
 </ul>
 
 ---?image=assets/images/binary-strings-black2.jpg
@@ -380,9 +380,9 @@ Note:
 ### <p align="center"><font color="black"<b>Approach – Porting EDK II</b></font></p>
 <br>
 @ul[no-bullet]
-- <p align="right"><span style="font-size:01.1em" ><span style="background-color: #fdb819">&nbsp;&nbsp;&nbsp; <b>Search Work Space&nbsp;</b>&nbsp;&nbsp;</span></span></p><br><br><br>
+- <p align="right"><span style="font-size:01.1em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #fdb819">&nbsp;&nbsp;&nbsp; <b>Search Work Space&nbsp;</b>&nbsp;&nbsp;</span></span></p><br><br><br>
 - <p align="left"><span style="font-size:01.1em" ><span style="background-color: #92d050">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Find Similar EDK II Projects</b>&nbsp;&nbsp;&nbsp;</span></span></p>
-- <p align="center"><span style="font-size:01.1em" ><span style="background-color: #7030a0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Boot to UEFI Shell&nbsp;</b>&nbsp;&nbsp;</span></span></p>
+- <p align="center"><span style="font-size:01.1em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #7030a0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Boot to UEFI Shell&nbsp;</b>&nbsp;&nbsp;</span></span></p>
 @ulend
 
 
@@ -1637,10 +1637,10 @@ Note:
 @title[BDS Phase:]
 <p align="center"><span class="gold" >BDS Phase:</span></p>
  
-<div class="left-1">
+<div class="left-2">
 <span style="font-size:0.8em" > &nbsp;</span>
 </div>
-<div class="right-1">
+<div class="right-2">
 <br>
 <br>
 <ul style="list-style-type:none">
@@ -1744,7 +1744,6 @@ Note:
 <br> 
 <br> 
 <br> 
-<br> 
 <span style="font-size:0.5em" >Check the <a href="https://github.com/tianocore/tianocore.github.io/wiki/EDK-II-Specifications">EDK II Specifications</a> </span>
 
 Note:
@@ -1760,7 +1759,6 @@ Note:
 ---?image=/assets/images/slides/Slide139.JPG
 @title[Update the New Project DEC File]
 <p align="right"><span class="gold" >Update the New Project DEC File</span></p>
-<br> 
 <br> 
 <br> 
 <br> 
@@ -1791,7 +1789,6 @@ Note:
 ---?image=/assets/images/slides/Slide141.JPG
 @title[Update the New Project DSC File]
 <p align="right"><span class="gold" >Update the New Project DSC File</span></p>
-<br> 
 <br> 
 <br> 
 <br> 
