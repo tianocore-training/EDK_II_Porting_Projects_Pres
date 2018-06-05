@@ -1645,7 +1645,7 @@ Note:
 <br>
 <ul style="list-style-type:none">
   <li><span style="font-size:0.9em" ><font color="white">Detect console devices (input and output) </font> </span></li><br>
-  <li><span style="font-size:0.9em" ><font color="cyan">Check enumeration of all devices’ preset </font> </span></li><br>
+  <li><span style="font-size:0.9em" ><font color="cyan">Check enumeration of all devices preset </font> </span></li><br>
   <li><span style="font-size:0.9em" ><font color="white">Detect boot policy</font> </span></li><br>
   <li><span style="font-size:0.9em" ><font color="cyan">Ensure BIOS “front page” is loaded </font> </span></li>
 
@@ -1820,6 +1820,16 @@ Note:
 <!-- .slide: data-transition="none" -->
 @title[Update the New Project FDF File]
 <p align="right"><span class="gold" >Update the New Project FDF File</span></p>
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br> 
+<br>
+<span style="font-size:0.5em" > Example FDF file for NewProjectPkg - Next slides</span>
 
 Note:
 -  Rules for combining binaries (Firmware Image) built from a DSC file
