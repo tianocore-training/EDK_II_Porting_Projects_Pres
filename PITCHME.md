@@ -377,7 +377,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide27_1.JPG
 @title[Porting Approach]
-### <p align="center"><font color="white"<b>Approach – Porting EDK II</b></font></p>
+### <p align="center"><font color="yellow"<b>Approach – Porting EDK II</b></font></p>
 <br>
 @ul[no-bullet]
 - <span style="font-size:01.1em" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="background-color: #fdb819"><b>&nbsp;&nbsp;&nbsp;&nbsp;Search Work Space&nbsp;&nbsp;</b></span></span></p><br><br><br><br><br>
