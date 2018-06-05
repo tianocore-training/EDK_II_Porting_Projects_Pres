@@ -1,4 +1,4 @@
-!--- @file
+<!--- @file
   Readme.md for UEFI / EDK II Training UEFI Driver Porting Lab
 
   Copyright (c) 2018, Intel Corporation. All rights reserved.<BR>
