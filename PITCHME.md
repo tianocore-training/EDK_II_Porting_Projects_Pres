@@ -1435,6 +1435,28 @@ Note:
 -  Vlv2DeviceRefCodePkg/ValleyView2Soc/CPU/CpuInit/Dxe/MpCpu.inf
 
 
+---?image=/assets/images/slides/Slide78_1.JPG
+@title[Location of APs for MAX]
+<p align="right"><span class="gold" >Location of Architectural Protocols for MAX</span></p>
+
+
+Note:
+- gEfiBdsArchProtocolGuid 	MdeModulePkg/Universal/BdsDxe/ 
+- gEfiCapsuleArchProtocolGuid 	MdeModulePkg/Universal/CapsuleRuntimeDxe 
+- gEfiCpuArchProtocolGuid                       	Vlv2DeviceRefCodePkg/ValleyView2Soc/CPU/CpuInit/Dxe/MpCpu
+- gEfiMetronomeArchProtocolGuid 	Vlv2TbltDevicePkg/Metronome
+- gEfiMonotonicCounterArchProtocolGuid 	MdeModulePkg/Universal/MonotonicCounterRuntimeDxe 
+- gEfiRealTimeClockArchProtocolGuid 	PcAtChipsetPkg/PcatRealTimeClockRuntimeDxe
+- gEfiResetArchProtocolGuid 	Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster/Reset/RuntimeDxe/ 
+- gEfiRuntimeArchProtocolGuid 	MdeModulePkg/Core/RuntimeDxe 
+- gEfiSecurityArchProtocolGuid 	MdeModulePkg/Universal/SecurityStubDxe
+- gEfiStatusCodeRuntimeProtocolGuid 	MdeModulePkg/Universal/ReportStatusCodeRouter/RuntimeDxe 
+- gEfiTimerArchProtocolGuid 	Vlv2DeviceRefCodePkg/ValleyView2Soc/SouthCluster/ SmartTimer/Dxe
+- gEfiVariableArchProtocolGuid 	MdeModulePkg/Universal/Variable 
+- gEfiVariableWriteArchProtocolGuid 	MdeModulePkg/Universal/Variable/RuntimeDxe 
+- gEfiWatchdogTimerArchProtocolGuid 	MdeModulePkg/Universal/WatchdogTimerDxe 
+
+
 
 ---?image=/assets/images/slides/Slide113.JPG
 <!-- .slide: data-transition="none" -->

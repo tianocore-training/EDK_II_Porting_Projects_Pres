@@ -23,6 +23,7 @@ html:-moz-full-screen-ancestor {
   color: #BF5122;
     text-align: center; 
   text-align: top;
+    font-weight: bold;
 }
 
 .gold {
@@ -303,6 +304,8 @@ h6 {
   color: #300a24;
 }
 
+table#recTable{width:100%; border:1px solid gray;}
+#recTable tr td {height:0.2px; border:1px solid gray;}
 
 
 
