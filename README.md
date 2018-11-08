@@ -32,4 +32,4 @@
 # EDK_II_Porting_Projects_pres
 Porting an Existing Project with EDK II - Minnowboard Max Example
 
-To see the Slides goto https://gitpitch.com/Laurie0131/EDK_II_Porting_Projects_pres/master#/
+To see the Slides goto https://gitpitch.com/tianocore-training/EDK_II_Porting_Projects_pres/master#/
